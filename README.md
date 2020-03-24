@@ -1,14 +1,9 @@
-# Computer Science
-## Labs
+# Computer Science Labs
 
-- [ ]
-- [x]
- - [ ]
- - [x]
- 
-  1. sd
-  2. sds
-  3. sdfdf
-  
-end
-=======
+[![Documentation](https://img.shields.io/badge/Map-documentation-brightgreen.svg)](https://google.com)
+[![GitHub license](https://img.shields.io/badge/license-GNU3-blue.svg)](/LICENSE)
+
+>C++  labs
+
+## Authors
+1. *Khaled Alshaikh
