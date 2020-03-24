@@ -1,8 +1,8 @@
 # Computer Science
 ## Labs
-- [ ]
-- [x]
- - [ ]
+-[ ]
+-[x]
+ -[ ]
  -[x]
   1. sd
   2. sds
