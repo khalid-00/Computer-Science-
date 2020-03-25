@@ -77,7 +77,7 @@ int main()
     std :: cin >> z ;
 
     op = T_table(bool x , bool y ,bool z, std::result);
-    std::cout<<<<op<<result<< std::endl;
+    std::cout<<result<< std::endl;
 
     return 0;
 }// end of Main
