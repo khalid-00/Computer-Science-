@@ -1,7 +1,7 @@
 #include <lab1.h>
 #include <math.h>
 #include <iostream>
-
+//using std::intalpha; // causes int values to print as "true" or "false"
 //using namespace std;
 
 float Area (float circumference){
@@ -81,43 +81,28 @@ void mult(int n)
 }
 //=====================================================================
 
-bool T_table(bool x,bool y,bool z,std::string op)
+int andGate(int out, int x,int y ,int z)
 {
-    bool re = 0 ;
-    int i = 0;
-    if  (op =="and") i=0;
-    else if ( op=="or") i=1;
-    else if  (op=="not") i=2;
-    else i =3;
+    if(x*y*z==1)
+        std::cout<< x << y << z<<1;
+    else
+        std::cout<< x << y << z<<0;
+    return 0;
+}
+int orGate(int out,int x,int y,int z)
+{
+    if(x|| y || z == 1)
+        std::cout<<x << y<< z << "\t" <<1;
+    else
+        std::cout<< x << y << z << 0;
+    return 0;
+}
 
-    switch (i)
-    {
-    case 0:
-        re = x && y && z;
-        break;
-    case 1:
-        re = x || y || z;
-        break;
-
-    case 2:
-        re = ~ x  ;
-        break ;
-    case 3:
-        std::cout << "problem"<<std::endl;
-
-    }// end of switch
-
-    return re ;
+int norGate(int out,int x,int y,int z)
+{
+    if(x == 0 && y == 0 && z == 0 )
+        std::cout << x << y << z <<1;
+    else
+    std::cout << x << y << z << 0;
+    return 0;
 }// end of function
-
-
-
-
-
-
-
-
-
-
-
-
