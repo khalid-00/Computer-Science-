@@ -29,9 +29,8 @@ void mult (int);
 
 //=====================================================================
 // Truth Table
-    bool T_table (bool,bool,std::string);
+   int Gates(int out, int x,int y ,int z);
 
 
-#endif // LAB1
 
-
+#endif // LAB
