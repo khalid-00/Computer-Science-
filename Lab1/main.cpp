@@ -67,7 +67,7 @@ int main()
     //Truth Table
     //=====================================================================
     int out,x,y,z;
-    std::cout<<"enter for the operation"<<std::endl;
+    std::cout<<"enter this numbers for the operation"<<std::endl;
     std::cout<<"1 for and"<<std::endl;
     std::cout<<"2 for or"<<std::endl;
     std::cout<<"3 for nor"<<std::endl;
