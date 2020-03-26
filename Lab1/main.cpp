@@ -66,28 +66,41 @@ int main()
     //=====================================================================
     //Truth Table
     //=====================================================================
-    bool x;
-    bool y;
-    bool z;
-    std :: cout<< "please enter x as boolean: " << std ::endl ;
-    std :: cin >> x ;
-    std :: cout<< "please enter x as boolean: " << std ::endl ;
-    std :: cin >> y ;
-    std :: cout<< "please enter x as boolean: " << std ::endl ;
-    std :: cin >> z ;
+    int out,x,y,z;
+    std::cout<<"enter for the operation"<<std::endl;
+    std::cout<<"1 for and"<<std::endl;
+    std::cout<<"2 for or"<<std::endl;
+    std::cout<<"3 for nor"<<std::endl;
+    std::cin>>out;
+    std::cout<<"X \t Y \t Z\t OUT" <<std::endl;
 
-    op = T_table(bool x , bool y ,bool z, std::result);
-    std::cout<<result<< std::endl;
+    switch(out)
+    {
+    case 1:
+        for(x=0;x<=1;x++)
+            for(y=0;y<=1;y++)
+                for(z=0;z<=1;z++)
+                {
+                    and = Gates(out,x,y,z);
+                }
+        break;
+    case 2:
+        for(x=0;x<=1;x++)
+            for(y=0;y<=1;y++)
+                for(z=0;z<=1;z++)
+                {
+                    or =Gates (out,x,y,z);
+                }
+        break;
+    case 3:
+        for(x=0;x<=1;x++)
+            for(y=0;y<=1;y++)
+                for(z=0;z<=1;z++)
+                {
+                    nor= Gates (out,x,y,z);
+                }
+        break;
 
-    return 0;
-}// end of Main
-
-
-
-
-
-
-
-
-
-
+        return 0;
+    }
+}
