@@ -29,7 +29,7 @@ void mult (int);
 
 //=====================================================================
 // Truth Table
-    bool T_table (bool,bool,std::string);
+    bool T_table (bool x,bool y,bool z);
 
 
 #endif // LAB1
