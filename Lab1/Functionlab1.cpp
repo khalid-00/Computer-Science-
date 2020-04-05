@@ -1,7 +1,7 @@
 #include <lab1.h>
 #include <math.h>
 #include <iostream>
-
+//using std::intalpha; // causes int values to print as "true" or "false"
 //using namespace std;
 
 float Area (float circumference){
@@ -82,6 +82,7 @@ void mult(int n)
 }
 //=====================================================================
 
+<<<<<<< HEAD
 bool T_table(bool x,bool y,bool z)
 {
     //And
@@ -104,4 +105,30 @@ bool T_table(bool x,bool y,bool z)
 
 
 
+=======
+int andGate(int out, int x,int y ,int z)
+{
+    if(x*y*z==1)
+        std::cout<< x << y << z<<1;
+    else
+        std::cout<< x << y << z<<0;
+    return 0;
+}
+int orGate(int out,int x,int y,int z)
+{
+    if(x|| y || z == 1)
+        std::cout<<x << y<< z << "\t" <<1;
+    else
+        std::cout<< x << y << z << 0;
+    return 0;
+}
+>>>>>>> d43fb4c7aca1aff1f5a5a4d037c60a6e3042be71
 
+int norGate(int out,int x,int y,int z)
+{
+    if(x == 0 && y == 0 && z == 0 )
+        std::cout << x << y << z <<1;
+    else
+    std::cout << x << y << z << 0;
+    return 0;
+}// end of function

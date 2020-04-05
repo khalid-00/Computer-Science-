@@ -29,9 +29,12 @@ void mult (int);
 
 //=====================================================================
 // Truth Table
+<<<<<<< HEAD
     bool T_table (bool x,bool y,bool z);
+=======
+   int Gates(int out, int x,int y ,int z);
+>>>>>>> d43fb4c7aca1aff1f5a5a4d037c60a6e3042be71
 
 
-#endif // LAB1
 
-
+#endif // LAB
