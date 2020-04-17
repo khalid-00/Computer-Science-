@@ -6,4 +6,4 @@
 >C++  labs
 
 ## Authors
-1. **Khaled Alshaikh**
+1. **Mohammad Khaled Alshikh**
