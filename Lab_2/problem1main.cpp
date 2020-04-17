@@ -7,7 +7,7 @@
 int main()
 {
 
-std::cout<<"please enter your text to encrypt in  "<<std::endl;
+    std::cout<<"please enter your text to encrypt in  "<<std::endl;
     std::string text;
     std::cin>> text ;
     int s = 4;
@@ -19,5 +19,5 @@ std::cout<<"please enter your text to encrypt in  "<<std::endl;
     std::cout <<"\nDecrption: "<<decencrypt (text1,s);
     std::cout <<"\n "<<decencrypt (text1,s);
 
- return 0;
+    return 0;
 }
